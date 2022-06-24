@@ -1,0 +1,47 @@
+:root {
+    --cor-principal: rgb(46, 62, 77);
+    --cor-secundaria: rgb(232, 235, 222);
+}
+
+nav {
+    max-width: 350px;
+    width: 100%;
+    background-color: rgb(238, 255, 127);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li{
+    border-bottom: 1px solid var(--cor-secundaria);
+}
+
+nav ul li a {
+    background-color: var(--cor-principal);
+    color: #FFF;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    transition: background .3s;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+}
+
+h1 {
+    color :#000000;
+    background: #009FFF;
+    background: -webkit-linear-gradient(to right,#DAA520, #ff6600);
+    background: linear-gradient(to right, #ecdc2f, #ffae00);
+    min-height: 60px;
+    padding: 10px;
+  }
+
+    
+    
+
